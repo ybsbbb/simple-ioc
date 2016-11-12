@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+	<!--由于使用注解，所以boss的bean中不可以写依赖其他bean的属性标签 -->
+    <bean id="boss" class="test.boss">
+    </bean>
+    <bean id="office" class="test.office">
+    	<property name="officeId" value="001"/>
+    </bean>
+</beans>
