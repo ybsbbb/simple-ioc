@@ -6,8 +6,6 @@ public class boss {
 	private office office;
 	private car car;
 
-	public boss(){
-	}
 	@Autowired
 	public boss(car car ,office office){
     	this.car = car;
